@@ -1,0 +1,5 @@
+{
+    "parent": "item/generated",
+    "textures": {"layer0": "orbitalintrigue:item/etherium_shard"},
+    "display": {"firstperson": {"scale": [0.1,0.1,0.1]}}
+}

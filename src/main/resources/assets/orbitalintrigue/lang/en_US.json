@@ -1,6 +1,11 @@
 {
-  "item.orbitalintrigue.etheriumshard": "Ethherium Shard",
-  "item.orbitalintrigue.etheriumblade": "Ethherium Blade",
+  "item.orbitalintrigue.etherium_shard": "Ethherium Shard",
+  "item.orbitalintrigue.etherium_blade": "Ethherium Blade",
+  "item.orbitalintrigue.refined_etherium": "Refined Ethherium",
+
+  "block.orbitalintrigue.etherium_block": "Block of Etherium",
+  "block.orbitalintrigue.etherium_ore": "Etherium Ore",
+  "block.orbitalintrigue.deepslate_etherium_ore": "Deepslate Etherium Ore",
 
   "itemGroup.oigeneraltab": "Orbital Intrigue"
 }

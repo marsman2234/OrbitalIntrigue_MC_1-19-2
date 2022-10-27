@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "orbitalintrigue:etherium_block",
+    "orbitalintrigue:etherium_ore",
+    "orbitalintrigue:deepslate_etherium_ore"
+  ]
+}

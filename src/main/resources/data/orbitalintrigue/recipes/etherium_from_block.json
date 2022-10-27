@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{
+      "item": "orbitalintrigue:etherium_block"
+    }],
+  "result": {
+    "item": "orbitalintrigue:refined_etherium",
+    "count": 9
+  }
+}

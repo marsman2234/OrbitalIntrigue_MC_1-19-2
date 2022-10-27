@@ -11,9 +11,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, OrbitalIntrigue.MOD_ID);
 
-    public static final RegistryObject<Item> ETHERIUM_SHARD = ITEMS.register("etheriumshard",
+    public static final RegistryObject<Item> ETHERIUM_SHARD = ITEMS.register("etherium_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OI_GENERAL_TAB)));
-    public static final RegistryObject<Item> ETHERIUM_BLADE = ITEMS.register("etheriumblade",
+    public static final RegistryObject<Item> REFINED_ETHERIUM = ITEMS.register("refined_etherium",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OI_GENERAL_TAB)));
+    public static final RegistryObject<Item> ETHERIUM_BLADE = ITEMS.register("etherium_blade",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OI_GENERAL_TAB)));
 
     public static void register(IEventBus eventBus){

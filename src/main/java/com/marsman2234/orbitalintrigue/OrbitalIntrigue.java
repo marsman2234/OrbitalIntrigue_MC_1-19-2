@@ -1,5 +1,6 @@
 package com.marsman2234.orbitalintrigue;
 
+import com.marsman2234.orbitalintrigue.block.ModBlocks;
 import com.marsman2234.orbitalintrigue.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -26,6 +27,7 @@ public class OrbitalIntrigue
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
